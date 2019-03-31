@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<Button android:id="@+id/Btn_commit" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="连接服务器" />
+		<TextView android:layout_width="fill_parent" android:id="@+id/tv"
+			android:layout_height="wrap_content" android:text="显示获取到的服务器信息" />
+	</LinearLayout>
+</ScrollView>

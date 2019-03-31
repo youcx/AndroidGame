@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">这里输入文字发给服务器</string>
+	<string name="app_name">SocketConnect</string>
+	<string name="send">发送</string>
+	<string name="get">这里显示服务器发来的信息!</string> 
+</resources>

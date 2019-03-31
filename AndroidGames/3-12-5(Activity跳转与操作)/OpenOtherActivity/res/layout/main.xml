@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="This is MainActivity!"
+	    />
+	<Button  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="OpenOtherActivity!"
+	    android:id="@+id/btnOpen"
+	    />
+	<Button  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="HideActivity"
+	     android:id="@+id/btnHideActivity"
+	    />
+    <Button  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="ExitActivity"
+	     android:id="@+id/btnExitActivity"
+	    />
+</LinearLayout>

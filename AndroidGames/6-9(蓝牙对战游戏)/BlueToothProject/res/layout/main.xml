@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1">
+		<com.himi.MySurfaceView 
+			android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" android:text="@string/openBlueTooth"
+			android:id="@+id/Btn_OpenBt" />
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" android:layout_toRightOf="@id/Btn_OpenBt"
+			android:text="@string/blueToothIsVisible" android:id="@+id/Btn_BtIsVisible" />
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" android:layout_toRightOf="@id/Btn_BtIsVisible"
+			android:text="@string/searchDrives" android:id="@+id/Btn_SearchDrives" />
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" android:layout_toRightOf="@id/Btn_SearchDrives"
+			android:text="@string/connectDrives" android:id="@+id/Btn_ConnectDrives" />
+		<TextView android:id="@+id/textview" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:text="蓝牙对战Demo示例"
+			android:textSize="32sp" android:textColor="#000000" android:gravity="center_horizontal" />
+	</RelativeLayout>
+</LinearLayout>

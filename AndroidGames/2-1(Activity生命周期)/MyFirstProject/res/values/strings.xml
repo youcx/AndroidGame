@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MainActivity!</string>
+	<string name="app_name">MyFirstProject</string>
+	<string name="btn_Open">打开OtherActivity！</string>
+	<string name="OtherActiviy_hello">I‘m OtherActivity!</string>
+	<string name="OtherActiviy_app_name">OterActivity</string>
+	<string name="OtherActiviy_BtnClose">关闭当前Activity!</string>
+	
+</resources>
